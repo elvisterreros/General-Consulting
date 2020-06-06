@@ -1,0 +1,119 @@
+.PieSup img {
+    /*position: absolute;*/
+width: 1340px;
+height: 85px;
+
+/*background: url(../img/bono_midis.png);*/
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 20px;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.cajaizq {
+position: inherit;
+width: 50%;
+height: 471px;
+left: 74px;
+top: 176px;
+
+background: #C4C4C4;
+}
+.cajaizq img {
+ position: absolute;
+width: 120px;
+height: 114px;
+border-radius: 100px;
+}
+
+
+.cajader {
+position: absolute;
+width: 47%;
+height: 471px;
+left: 713px;
+top: 176px;
+
+background: #C4C4C4;
+}
+.cajader .enqueafp img{
+position: absolute;
+width: 5.625em;
+height: 5.625em;
+left: 7px;
+top: 18px;
+border-radius: 100px;
+}
+.cajader .afps  img{
+position: absolute;
+width: 5.625em;
+height: 5.625em;
+top: 1.25em;
+border-radius: 12.5em;
+}
+.cajader .afps .afpfondos .inscripsionafp img {
+    left: 12em;
+}
+.cajader .afps .afpfondos .fprima img{
+    left: 33em;
+}
+.cajader .afps .afpfondos .fprofuturo img{
+    left: 33em;
+    top: 7.6em;
+}
+.cajader .afps .afpfondos .fintegra img{
+     left: 33em;
+    top: 14em
+}
+.cajader .afps .afpfondos .fhabitat img{
+    left: 33em;
+    top: 20.3em;
+}
+.cajader .afps .afpseguimientos .sprima img{
+    left: 27em;
+}
+.cajader .afps .afpseguimientos .sprofuturo img{
+    left: 27em;
+    top: 7.6em;
+}
+.cajader .afps .afpseguimientos .sintegra img{
+    left: 27em;
+    top: 14em;
+}
+.cajader .afps .afpseguimientos .shabitat img{
+    left: 27em;
+    top: 20.3em;
+}
+.cajaizq .inscripsionbono img {
+    left:2em;
+    top: 12em
+}
+.cajaizq .consultas img {
+    left: 15em;
+    top: 12em
+}
+.cajaizq .todobonos img {
+    left: 28em;
+    top: 12em;
+}
+.cajaizq .subventanaizq {
+position: absolute;
+width: 48%;
+height: 40%;
+left: 20px;
+top: 47%;
+
+background: #FFFFFF;
+}
+
+.cajader .subventanader {
+position: absolute;
+width: 400px;
+height: 275px;
+left: 20px;
+top: 115px;
+
+background: #FFFFFF;
+}
