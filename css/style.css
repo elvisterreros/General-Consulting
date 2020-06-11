@@ -1,6 +1,6 @@
 .PieSup img {
     /*position: absolute;*/
-width: 1340px;
+width: 100%;
 height: 85px;
 
 /*background: url(../img/bono_midis.png);*/
@@ -15,7 +15,7 @@ h1 {
 .cajaizq {
 position: inherit;
 width: 50%;
-height: 471px;
+height: 40rem;
 left: 74px;
 top: 176px;
 
@@ -32,18 +32,17 @@ border-radius: 100px;
 .cajader {
 position: absolute;
 width: 47%;
-height: 471px;
-left: 713px;
-top: 176px;
-
+height: 40rem;
+left: 44.5625rem;
+top: 11rem;
 background: #C4C4C4;
 }
 .cajader .enqueafp img{
 position: absolute;
 width: 5.625em;
 height: 5.625em;
-left: 7px;
-top: 18px;
+left: 0.4375rem;
+top: 1.125rem;
 border-radius: 100px;
 }
 .cajader .afps  img{
@@ -53,6 +52,7 @@ height: 5.625em;
 top: 1.25em;
 border-radius: 12.5em;
 }
+/*posicion */
 .cajader .afps .afpfondos .inscripsionafp img {
     left: 12em;
 }
@@ -101,19 +101,47 @@ border-radius: 12.5em;
 .cajaizq .subventanaizq {
 position: absolute;
 width: 48%;
-height: 40%;
-left: 20px;
-top: 47%;
+height: 60%;
+left: 1.25rem;
+top: 49%;
 
 background: #FFFFFF;
 }
 
 .cajader .subventanader {
 position: absolute;
-width: 400px;
-height: 275px;
-left: 20px;
-top: 115px;
+width: 64.5%;
+height: 65%;
+left: 1.25rem;
+top: 7.1875rem;
 
 background: #FFFFFF;
+}
+.cronogramas {
+    display: flex;
+}
+.cajader .clavevirtualonp img {
+position: absolute;
+width: 5.625em;
+height: 5.625em;
+left: 0.4375rem;
+top: 1.125rem;
+border-radius: 100px;
+left: 33em;
+top: 27em;
+}
+
+.bancos img{
+position: absolute;
+width: 5.625em;
+height: 5.625em;
+border-radius: 100px;
+}
+
+.fichareniec img{
+position: absolute;
+width: 5.625em;
+height: 5.625em;
+border-radius: 100px;
+left: 10rem;
 }
