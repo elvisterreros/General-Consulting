@@ -1,147 +1,233 @@
-.PieSup img {
-    /*position: absolute;*/
-width: 100%;
-height: 85px;
-
-/*background: url(../img/bono_midis.png);*/
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 20px;
+*{
+    margin: 0;
+    box-sizing: border-box;
 }
-h1 {
-    text-align: center;
-    color: blue;
+body{
+    font-family: sans-serif;
 }
-
-.cajaizq {
-position: inherit;
-width: 50%;
-height: 40rem;
-left: 74px;
-top: 176px;
-
-background: #C4C4C4;
+.main img {
+    max-width: 80%;
 }
-.cajaizq img {
- position: absolute;
-width: 120px;
-height: 114px;
-border-radius: 100px;
+.logotipo {
+    width: 125px;
+    height: 60px;
+}
+.contenedor{
+    width: 100%;
+    margin: auto;
 }
 
-
-.cajader {
-position: absolute;
-width: 47%;
-height: 40rem;
-left: 44.5625rem;
-top: 11rem;
-background: #C4C4C4;
+/*Estilos de header*/
+.header{
+    height: 60px;
+    background: #333;
 }
-.cajader .enqueafp img{
-position: absolute;
-width: 5.625em;
-height: 5.625em;
-left: 0.4375rem;
-top: 1.125rem;
-border-radius: 100px;
-}
-.cajader .afps  img{
-position: absolute;
-width: 5.625em;
-height: 5.625em;
-top: 1.25em;
-border-radius: 12.5em;
-}
-/*posicion */
-.cajader .afps .afpfondos .inscripsionafp img {
-    left: 12em;
-}
-.cajader .afps .afpfondos .fprima img{
-    left: 33em;
-}
-.cajader .afps .afpfondos .fprofuturo img{
-    left: 33em;
-    top: 7.6em;
-}
-.cajader .afps .afpfondos .fintegra img{
-     left: 33em;
-    top: 14em
-}
-.cajader .afps .afpfondos .fhabitat img{
-    left: 33em;
-    top: 20.3em;
-}
-.cajader .afps .afpseguimientos .sprima img{
-    left: 27em;
-}
-.cajader .afps .afpseguimientos .sprofuturo img{
-    left: 27em;
-    top: 7.6em;
-}
-.cajader .afps .afpseguimientos .sintegra img{
-    left: 27em;
-    top: 14em;
-}
-.cajader .afps .afpseguimientos .shabitat img{
-    left: 27em;
-    top: 20.3em;
-}
-.cajaizq .inscripsionbono img {
-    left:2em;
-    top: 12em
-}
-.cajaizq .consultas img {
-    left: 15em;
-    top: 12em
-}
-.cajaizq .todobonos img {
-    left: 28em;
-    top: 12em;
-}
-.cajaizq .subventanaizq {
-position: absolute;
-width: 48%;
-height: 60%;
-left: 1.25rem;
-top: 49%;
-
-background: #FFFFFF;
-}
-
-.cajader .subventanader {
-position: absolute;
-width: 64.5%;
-height: 65%;
-left: 1.25rem;
-top: 7.1875rem;
-
-background: #FFFFFF;
-}
-.cronogramas {
+.header .contenedor{
     display: flex;
+    justify-content: space-between;
 }
-.cajader .clavevirtualonp img {
-position: absolute;
-width: 5.625em;
-height: 5.625em;
-left: 0.4375rem;
-top: 1.125rem;
-border-radius: 100px;
-left: 33em;
-top: 27em;
+.logotipo, .icon-menu{
+    margin: 5px;
+    color: #fff;
+}
+.icon-menu{
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #999;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav{
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 60px;
+}
+.menu__link{
+    display: block;
+    padding: 15px;
+    background: rgba(51,51,51,0.9);
+    color: #fff;
+    height: 60px;
+    border-bottom: 1px solid #fff;
+}
+.menu__link:hover{
+    background: #fff;
+    color: #000;
+}
+.muestrate{
+    left: 0;
+}
+/*--------------------Estilos del banner------------------*/
+.banner img  {
+    width: 100%;
+}
+.banner{
+    position: relative;
+}
+.banner .contenedor {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    width: 100%;
+    color: orange;
+}
+.banner .contenedor p{
+    font-size: 50px;
+}
+/*----------estilos de info------------*/
+
+.info{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: -50px;
+}
+.info__img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 7px solid #444;
+    position: relative;
+}
+.info__txt{
+    text-align: justify;
+    padding: 15px;
 }
 
-.bancos img{
-position: absolute;
-width: 5.625em;
-height: 5.625em;
-border-radius: 100px;
+/*-----------------estilos afps-------------------*/
+
+.afps {
+    background: #9a6339;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+.afps h3{
+    font-size: 30px;
+}
+.afps .afps__titulo{
+    font-size: 40px;
+}
+.afp .afps__txt{
+    text-align: justify;
+    padding: 15px;
+}
+.afps__img{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    border: 7px solid #fff;
+}
+/*-------------estilos mapa--------------*/
+.mapa{
+    background: #f0ede5;
+    padding: 15px;
+    text-align: center;
+}
+.mapa h3{
+    font-size: 30px;
+}
+.mapa p{
+    text-align: justify;
+}
+/*------------------Estilos del footer------------------*/
+.footer{
+    background: #000;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+}
+.footer img{
+    width: 70px;
+    margin-right: 10px;
+    border: 5px solid #fff;
+    border-radius: 50%;
 }
 
-.fichareniec img{
-position: absolute;
-width: 5.625em;
-height: 5.625em;
-border-radius: 100px;
-left: 10rem;
+/*------------estilos responsive------------------*/
+
+@media(min-width: 480px){
+    .contenedor .banner__titulo{
+        font-size: 44px;
+    }
+    .contenedor .banner__txt{
+        font-size: 25px;
+    }
+    .main img{
+        max-width: 90%;
+    }
+    .info__columna{
+        width: 32%;
+    }
+    .info .contenedor{
+        display: flex;
+        justify-content: space-between;
+    }
+    .afps .contenedor{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .afps__columna{
+        width: 40%;
+    }
+    .afps h3{
+        font-size: 32px;
+    }
+}
+@media(min-width:768px){
+    .platos__columna{
+        width: 24%;
+    }
+}
+
+@media(min-width:1024px){
+    .nav{
+        position: static;
+        width: auto;
+    }
+    .menu{
+        display: flex;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .menu__link{
+        border: none;
+    }
+    .contenedor .banner__titulo{
+        font-size: 50px;
+    }
+    .contenedor .banner__txt{
+        font-size: 36px;
+    }
+    .contenedor{
+        width: 1000px;
+    }
+}
+@media(min-width:1280px){
+    .contenedor{
+        width: 1200px;
+    }
+    .contenedor .banner__titulo{
+        font-size: 90px;
+    }
+    .contenedor .banner__txt{
+        font-size: 46px;
+    }
 }
